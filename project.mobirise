@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 11,
+    "uniqCompNum": 12,
     "versionPublish": "3.9.2",
     "favicon": "",
     "noImageResize": "true",
@@ -55,7 +55,7 @@
           },
           "title": "LiGa: Investindo em Mulheres Empreendedoras",
           "text": "Crescendo com o país! Deixe sua mensagem e entraremos em contato.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"index.html#form1-8\" data-toolbar=\"-mbrBtnMove\">QUERO INVESTIR</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"liga.html#form1-8\" data-toolbar=\"-mbrBtnMove\">QUERO EMPRÉSTIMO</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"liga.html#form1-b\" data-toolbar=\"-mbrBtnMove\">QUERO INVESTIR</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"liga.html#form1-8\" data-toolbar=\"-mbrBtnMove\">QUERO EMPRÉSTIMO</a>"
         },
         {
           "_styles": {
@@ -367,6 +367,55 @@
             "Theme"
           ],
           "_name": "form1",
+          "_anchor": "form1-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "INVESTIDOR CADASTRE-SE NA LIGA",
+          "form": {
+            "action": "ritafisica@yahoo.com.br",
+            "alerts": {
+              "success": "A LiGa agradece.  LiGa...em breve!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensagem"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
           "_anchor": "form1-8",
           "_params": {
             "paddingTop": 3,
@@ -374,14 +423,14 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#fc7d5d",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true
           },
-          "title": "ENTRE EM CONTATO COM A LIGA<br>",
+          "title": "EMPREENDEDORA ESCREVA SUA NECESSIDADE&nbsp;",
           "form": {
             "action": "ritafisica@yahoo.com.br",
             "alerts": {
