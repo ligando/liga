@@ -12,7 +12,8 @@
     "versionPublish": "3.9.2",
     "favicon": "",
     "noImageResize": "true",
-    "publishType": "github"
+    "publishType": "github",
+    "publishPath": ""
   },
   "pages": {
     "liga.html": {
