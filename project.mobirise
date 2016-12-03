@@ -13,7 +13,7 @@
     "favicon": "",
     "noImageResize": "true",
     "publishType": "github",
-    "publishPath": ""
+    "publishPath": "file:///C:/Users/Rita/Documents/webliga"
   },
   "pages": {
     "liga.html": {
